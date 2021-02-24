@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./collection\Api_Test.postman_collection.json
-          environment: ./env\LAMP-staging.postman_environment.json
+          collection: ./collection/Api_Test.postman_collection.json
+          environment: ./env/LAMP-staging.postman_environment.json
 
